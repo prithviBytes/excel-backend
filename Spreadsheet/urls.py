@@ -5,5 +5,6 @@ from . import views
 
 
 urlpatterns = [
+    path('create', views.create, name='create-spreadsheet'),
     path('update', views.update, name='update-spreadsheet'),
 ]
