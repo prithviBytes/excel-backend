@@ -1,0 +1,54 @@
+{
+    "name": "My Spreadsheet",
+    "sheets": [
+        {
+            "name": "Sheet1",
+            "rows": [
+                [
+                    {
+                        "value": 1,
+                        "formula": "A1*2",
+                        "style": {
+                            "font": "Arial",
+                            "size": 12,
+                            "color": "red",
+                            "bold": true
+                        }
+                    },
+                    {
+                        "value": 2,
+                        "formula": "B1*3",
+                        "style": {
+                            "font": "Times New Roman",
+                            "size": 14,
+                            "color": "blue",
+                            "italic": true
+                        }
+                    },
+                    {
+                        "value": 3,
+                        "formula": "SUM(A1:B1)",
+                        "style": {
+                            "font": "Calibri",
+                            "size": 10,
+                            "color": "green",
+                            "underline": true
+                        }
+                    }
+                ],
+                [
+                    {
+                        "value": "Hello",
+                        "style": {
+                            "font": "Arial",
+                            "size": 12,
+                            "color": "black",
+                            "bold": true
+                        }
+                    }
+                
+                ]
+            ]
+        }
+    ]
+}
