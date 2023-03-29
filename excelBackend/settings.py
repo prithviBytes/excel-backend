@@ -76,16 +76,15 @@ WSGI_APPLICATION = 'excelBackend.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-
 DATABASES = {
-    'default': {
-        'ENGINE': 'djongo',
-        'NAME': os.environ.get('DB_NAME'),
-        'HOST': os.environ.get('DB_HOST'),
-        'PORT': os.environ.get('DB_PORT'),
-        'USER': os.environ.get('DB_USER'),
-        'PASSWORD': os.environ.get('DB_PASS'),
-    }
+        'default': {
+            'ENGINE': 'djongo',
+            'NAME': os.environ.get('DB_NAME'),
+            'ENFORCE_SCHEMA': False,
+            'CLIENT': {
+                'host': f'mongodb+srv://{os.environ.get("DB_USER")}:{os.environ.get("DB_PASS")}@{os.environ.get("DB_CLUSTER")}/{os.environ.get("DB_NAME")}?retryWrites=true&w=majority'
+            }  
+        }
 }
 
 
