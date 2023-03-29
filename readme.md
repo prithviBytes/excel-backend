@@ -1,4 +1,4 @@
-Grid Layout: The ability to display data in a grid layout is a fundamental feature of any spreadsheet application. Your web application should allow users to create, edit, and view data in a grid format.
+Grid Layout: The ability to display data in a grid layout is a fundamental feature of any spreadsheet application. Your web application should allow users to create, edit, and view data in a grid format. [DONE]
 
 Formula Bar: The formula bar is where users can enter formulas and functions to perform calculations on their data. Your web application should have a formula bar that allows users to enter formulas and view the results.
 
