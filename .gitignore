@@ -1,0 +1,32 @@
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore static and media files
+staticfiles/
+media/
+
+# Ignore secret key file
+secret_key.txt
+
+# Ignore environment files
+.env
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore IDE files
+.vscode/
+*.idea/
+*.pydevproject
+
+# Ignore other generated files
+*.DS_Store
+*.pyo
+*.swp
+*~
